@@ -10,10 +10,10 @@
       }
     }, { # 'OS!="win"'
       'variables': {
-        'with_jpeg%': '<!(./util/has_lib.sh jpeg)',
-        'with_gif%': '<!(./util/has_lib.sh gif)',
-        'with_pango%': '<!(./util/has_lib.sh pango)',
-        'with_freetype%': '<!(./util/has_lib.sh freetype)'
+        'with_jpeg%': 'true',
+        'with_gif%': 'true',
+        'with_pango%': 'true',
+        'with_freetype%': 'true'
       }
     }]
   ],
